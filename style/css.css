@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* {font-family: "Cambria Math", "Cambria", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU" !important;}
+* {font-family: "Lucida Grande", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU" !important;}
 
 @media screen and (min-width: 900px) { 
  	html,body,td,th,header,content {color: #000000; margin:auto; -webkit-text-size-adjust:100%;}
