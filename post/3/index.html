@@ -1,94 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh" xml:lang="zh">
 <head>
-	<meta charset="utf-8">
+	<meta name="generator" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Getting Started with Hugo</title>
+	<title>轮番所</title>
 	
-	<meta name="description" content="">
-	<meta name="image" content="">
+	<meta name="description" content="轮番所官方网站。">
+	<meta name="image" content="https://lunfansuo.com/logo.jpg">
 	
-	<meta itemprop="name" content="Getting Started with Hugo">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="">
+	<meta itemprop="name" content="轮番所">
+	<meta itemprop="description" content="轮番所官方网站。">
+	<meta itemprop="image" content="https://lunfansuo.com/logo.jpg">
 	
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Getting Started with Hugo">
-	<meta name="twitter:description" content="">
-	<meta name="twitter:site" content="@yakczar">
-	<meta name="twitter:creator" content="@yakczar">
-	<meta name="twitter:image:src" content="">
+	<meta name="og:title" content="轮番所">
+	<meta name="og:description" content="轮番所官方网站。">
 	
-	
-	<meta name="og:title" content="Getting Started with Hugo">
-	<meta name="og:description" content="">
-	
-	<meta name="og:url" content="https://schollz.github.io/onetwothree/post/hugoisforlovers/">
-	<meta name="og:site_name" content="Getting Started with Hugo">
+	<meta name="og:url" content="https://lunfansuo.com">
+	<meta name="og:site_name" content="轮番所">
 	<meta name="og:type" content="article">
 	
-	<meta name="article:author" content="yakczar">
-	<meta name="article:tag" content="go golang hugo development ">
-	<link rel="stylesheet" type="text/css" href="https://schollz.github.io/onetwothree/css/style.css">
-	<script src="https://schollz.github.io/onetwothree/js/caption.js"></script>
+	<meta name="article:author" content="李袤">
+	<meta name="article:tag" content="">
+	<link rel="stylesheet" type="text/css" href="https://lunfansuo.com/css/style.css">
 </head>
 
 <body>
 	
 
 <header style="color:#CCCCCC;">
-    <a href="https://schollz.github.io/onetwothree/" style="color:#CCCCCC;"><strong>Posts</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://schollz.github.io/onetwothree/about/" style="color:#CCCCCC;"><strong>About Hugo</strong></a>
-
-
+    <a href="https://lunfansuo.com/" style="color:#CCCCCC;"><strong>首页</strong></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://lunfansuo.com/about/" style="color:#CCCCCC;"><strong>关于</strong></a>
 </header>
 
-<div id="loadingMask" style="width: 100%; height: 100%; position: fixed; background: #fff;"></div>
-<script>
-function fadeOut(el) {
-  el.style.opacity = 1;
-
-  var last = +new Date();
-  var tick = function() {
-    el.style.opacity = +el.style.opacity - (new Date() - last) / 80;
-    last = +new Date();
-    
-
-    if (el.style.opacity > 0) {
-      (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
-    } else {
-    	el.style.display='none';
-    }
-  };
-
-  tick();
-}
-
-function ready(fn) {
-    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
-         el = document.getElementById('loadingMask');
-         fadeOut(el);
-        var elements = document.querySelectorAll("img");
-        Array.prototype.forEach.call(elements, function(el, i) {
-            if (el.getAttribute("alt")) {
-                const caption = document.createElement('figcaption');
-                var node = document.createTextNode(el.getAttribute("alt"));
-                caption.appendChild(node);
-                const wrapper = document.createElement('figure');
-                wrapper.className = 'image';
-                el.parentNode.insertBefore(wrapper, el);
-                el.parentNode.removeChild(el);
-                wrapper.appendChild(el);
-                wrapper.appendChild(caption);
-            }
-        });
-
-    } else {
-        document.addEventListener('DOMContentLoaded', fn);
-    }
-}
-window.onload = ready;
-</script>
 
 <div class="content">
 	<h1>Getting Started with Hugo <aside><a href="https://schollz.github.io/onetwothree/tags/go/" class="w3-tag">/go</a>&nbsp;&nbsp;&nbsp;<a href="https://schollz.github.io/onetwothree/tags/golang/" class="w3-tag">/golang</a>&nbsp;&nbsp;&nbsp;<a href="https://schollz.github.io/onetwothree/tags/hugo/" class="w3-tag">/hugo</a>&nbsp;&nbsp;&nbsp;<a href="https://schollz.github.io/onetwothree/tags/development/" class="w3-tag">/development</a>&nbsp;&nbsp;&nbsp;<a href="https://schollz.github.io/onetwothree/about" class="w3-tag">/about</a></aside></h1>
