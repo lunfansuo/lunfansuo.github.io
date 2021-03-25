@@ -1,12 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab');
-
 html, body, li  p {
-	font-family: 'Roboto Slab', "Lucida Grande", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Lucida Grande", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
 }
 
 h1,h2,h3,h4,h5,h6,header,header.a {
-	font-family: 'Roboto Slab', "Lucida Grande", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Lucida Grande", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
 }
 
 header,header.a{
