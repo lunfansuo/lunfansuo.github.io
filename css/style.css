@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css?family=Aleo');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 html, body, li  p {
-	font-family: "Aleo", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Roboto Slab", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
 }
 
 h1,h2,h3,h4,h5,h6,header,header.a {
-	font-family: "Aleo", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Roboto Slab", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
 }
 
 header,header.a{
