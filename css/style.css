@@ -2,11 +2,11 @@
 @import url('https://lunfansuo.com/css/font.css');
 
 html, body, li  p {
-	font-family: "Roboto Slab", "Palatino", "Segoe UI", "Chiron Sans HK TT", "Chiron Sans HK PRO", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Roboto Slab", "Palatino", "Segoe UI", "Chiron Sans HK TT", "Chiron Sans HK PRO", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "Microsoft YaHei", "PMingLiU";
 }
 
 h1,h2,h3,h4,h5,h6,header,header.a {
-	font-family: "Roboto Slab", "Palatino", "Segoe UI", "Chiron Sans HK TT", "Chiron Sans HK PRO", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "PMingLiU";
+	font-family: "Roboto Slab", "Palatino", "Segoe UI", "Chiron Sans HK TT", "Chiron Sans HK PRO", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans TC", "Hiragino Sans GB", "Microsoft YaHei", "PMingLiU";
 }
 
 header,header.a{
